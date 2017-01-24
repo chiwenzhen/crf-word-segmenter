@@ -10,8 +10,15 @@ make
 sudo make install
 
 ```
+* install python package(in CRF++-0.58/python directory)
+
+```
+python setup.py build
+sudo python setup.py install
+```
 ## 2.Preparing Data
 * download [backoff2005 data][2]
+* unzip the data
 
 
 ## 3.Convert data to CRF++ format
