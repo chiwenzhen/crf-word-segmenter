@@ -10,7 +10,9 @@ make
 sudo make install
 
 ```
-* install python package(in CRF++-0.58/python directory)
+* install python package(in **CRF++-0.xx/python** directory)
+
+It enables python to load binary model from disk.
 
 ```
 python setup.py build
